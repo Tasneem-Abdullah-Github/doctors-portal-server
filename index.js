@@ -55,7 +55,7 @@ async function run() {
         subject: "Confirmed your appointment",
         text: "",
         html: `
-        <a href = "https://auto-trader-online.web.app/">
+        <a href = "https://doctors-portal-prc.web.app">
         <img alt = "Doctors Portal" src = "https://i.ibb.co/qm3B8DZ/119767-message-svg.png" style = "width: 250px; display: block; margin: 10px auto;">
         </a>
         <div style = "text-align: center;">
@@ -81,9 +81,9 @@ async function run() {
         <p style = "font-size: 17px;"> Thanks, ${data.patientName} for making appointment in Doctors Portal.</p>
 
 
-        <p style = "font-size: 17px;"> Now pay, the due amount from Doctors Portal / Dashboard / Appointment. Or <a style = "text-align: center;" href = "https://auto-trader-online.web.app/">Click Here</a></p>
+        <p style = "font-size: 17px;"> Now pay, the due amount from Doctors Portal / Dashboard / Appointment. Or <a style = "text-align: center;" href = "https://doctors-portal-prc.web.app/dashboard">Click Here</a></p>
 
-        <a style = "text-align: center;" href = "https://auto-trader-online.web.app/">Visit Doctors Portal</a>
+        <a style = "text-align: center;" href = "hhttps://doctors-portal-prc.web.app">Visit Doctors Portal</a>
 
 
         <img alt = "Order Confirmed" style = "display: block; margin: 2px auto" src = "https://i.ibb.co/YDLv3Yp/Confirmed-rafiki.png" width = "50%"/>
@@ -112,7 +112,7 @@ async function run() {
         subject: "Payment Done",
         text: "",
         html: `
-        <a href = "https://auto-trader-online.web.app/">
+        <a href = "https://doctors-portal-prc.web.app">
         <img alt = "Doctors Portal" src = "https://i.ibb.co/qm3B8DZ/119767-message-svg.png" style = "width: 250px; display: block; margin: 10px auto;">
         </a>
         <div style = "text-align: center;">
@@ -124,7 +124,7 @@ async function run() {
 
         <img alt = "Order Confirmed" style = "display: block; margin: 2px auto" src = "https://i.ibb.co/t8RHzGw/Sponsor-bro.png" width = "100%"/>
         </div>
-                <a style = "text-align: center;" href = "https://auto-trader-online.web.app/">Visit Doctors Portal Again</a>
+                <a style = "text-align: center;" href = "https://doctors-portal-prc.web.app">Visit Doctors Portal Again</a>
         `,
       };
       transporter.sendMail(options, (err, info) => {
